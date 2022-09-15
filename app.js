@@ -19,14 +19,6 @@ console.log(process.env.PRIVATE_KEY);
 
 
 
-// password REGEX here.....
-const match_password = /^(?=.\d)(?=.[!@#$%^&])(?=.[a-z])(?=.*[A-Z]).{8,}$/;
-
-
-
-
-
-
 // FUNCTIONS
 app.use(cors());
 app.use(express.json());
